@@ -1,0 +1,17 @@
+body {
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.btn-block {
+  margin-top: 20px;
+}

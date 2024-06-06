@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Investimentos</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="text-center">Investimentos</h2>
+      <canvas id="investimentosChart"></canvas>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Valor Atual</th>
+            <th>Retorno</th>
+            <th>Data</th>
+          </tr>
+        </thead>
+        <tbody id="investimentosTableBody">
+          <!-- Investimentos serão inseridos aqui -->
+        </tbody>
+      </table>
+      <button class="btn btn-danger btn-block" onclick="addInvestimento()">Adicionar Investimento</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
